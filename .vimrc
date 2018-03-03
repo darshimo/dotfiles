@@ -35,4 +35,4 @@ nnoremap <Right> 10l
 
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-colorscheme greenvision
+"colorscheme greenvision
