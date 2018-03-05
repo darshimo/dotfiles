@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/Takumi/.matplotlib'
+let g:netrw_dirhist_2='/Users/Takumi/Documents/3a/experiment/06/carchi'
+let g:netrw_dirhist_3='/Users/Takumi/pipe'
+let g:netrw_dirhist_4='/Users/Takumi/.matplotlib'
+let g:netrw_dirhist_5='/Applications/SecretChrome.app/Contents/MacOS'
+let g:netrw_dirhist_6='/Users/Takumi/Documents/moff/aws/bucket'
+let g:netrw_dirhist_7='/Users/Takumi/.vim'

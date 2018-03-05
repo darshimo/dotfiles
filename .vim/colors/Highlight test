@@ -1,0 +1,194 @@
+Highlighting groups for various occasions
+-----------------------------------------
+SpecialKey	SpecialKey
+NonText	NonText
+Directory	Directory
+ErrorMsg	ErrorMsg
+IncSearch	IncSearch
+Search	Search
+MoreMsg	MoreMsg
+ModeMsg	ModeMsg
+LineNr	LineNr
+CursorLineNr	CursorLineNr
+Question	Question
+StatusLine	StatusLine
+StatusLineNC	StatusLineNC
+VertSplit	VertSplit
+Title	Title
+Visual	Visual
+VisualNOS	VisualNOS
+WarningMsg	WarningMsg vimWarn vimBufnrWarn
+WildMenu	WildMenu
+Folded	Folded vimFold
+FoldColumn	FoldColumn
+DiffAdd	DiffAdd
+DiffChange	DiffChange
+DiffDelete	DiffDelete
+DiffText	DiffText
+SignColumn	SignColumn
+Conceal	Conceal
+SpellBad	SpellBad
+SpellCap	SpellCap
+SpellRare	SpellRare
+SpellLocal	SpellLocal
+Pmenu	Pmenu
+PmenuSel	PmenuSel
+PmenuSbar	PmenuSbar
+PmenuThumb	PmenuThumb
+TabLine	TabLine
+TabLineSel	TabLineSel
+TabLineFill	TabLineFill
+CursorColumn	CursorColumn
+CursorLine	CursorLine
+ColorColumn	ColorColumn
+
+Syntax highlighting groups
+--------------------------
+MatchParen	MatchParen
+Comment	Comment vimComment vimMtchComment vimLineComment rubyRegexpComment rubyComment rubyDocumentation
+	rubyData vimScriptDelim pythonComment
+Constant	Constant String Character Number Boolean Float vimNumber vimMark vimString vimSetString
+	vimCommentString vimPatSepZone vimNotPatSep vimStringCont vimSubstTwoBS vimMarkNumber vimPlainMark
+	vimAddress vimSynRegPat vimSynPatRange vimSynNotPatRange vimHiGuiRgb vimHiNmbr vimSearch vimInsert
+	rubyString rubyASCIICode rubyInteger rubyFloat rubySymbol rubyRegexp rubyHeredoc
+	rubyNoInterpolation rubyBoolean rubyPseudoVariable pythonQuotes pythonString pythonTripleQuotes
+	pythonRawString pythonNumber
+Special	Special Tag SpecialChar Delimiter SpecialComment Debug vimRegister vimCmplxRepeat vimNotation
+	vimCtrlChar vimContinue vimParenSep vimSep vimFuncSID vimUserAttrbCmpltFunc vimPatSep vimPatSepZ
+	vimPatSepR vimPatSepErr vimSubstSubstr vimSubstDelim vimSubstFlags vimPlainRegister vimMapModKey
+	vimBracket vimMapMod vimMenuMod vimGroupSpecial rubyStringEscape rubyQuoteEscape
+	rubyInterpolationDelimiter rubyRegexpSpecial rubyRegexpCharClass rubyRegexpEscape
+	rubyRegexpQuantifier rubyRegexpAnchor rubyRegexpDot rubyStringDelimiter rubySymbolDelimiter
+	rubyRegexpDelimiter rubyDataDirective pythonEscape pythonDoctest vimSynOption vimSynContains
+	vimSynKeyContainedin vimSynNextgroup vimGroupAdd vimGroupRem vimSynKeyOpt vimSynMtchOpt
+	vimSynRegOpt vimSynMtchGrp
+Identifier	Identifier Function vimFuncName vimVar vimFBVar vimSpecFile vimFuncVar vimSpecFileMod rubyFunction
+	rubyIdentifier rubyPredefinedIdentifier rubyInstanceVariable rubyClassVariable rubyGlobalVariable
+	rubyPredefinedVariable rubyBlockParameter rubyPredefinedConstant pythonFunction pythonBuiltin
+	vimKeyCode
+Statement	Statement Conditional Repeat Label Operator Keyword Exception vimCommand vimSubst vimAutoCmd vimLet
+	vimMap vimSyntax vimBehave vimBehaveModel vimFTCmd vimNotFunc vimOper vimAugroupKey vimFuncKey
+	vimAbb vimEchoHL vimHighlight vimNorm vimUnmap vimUserCommand vimSubst1 vimSetSep vimMapBang
+	vimHiClear vimSearchDelim rubyConditional rubyExceptional rubyOperator rubyControl rubyKeyword
+	rubyBeginEnd rubyConditionalModifier rubyRepeat rubyOptionalDo rubyRepeatModifier rubyAccess
+	rubyAttribute rubyEval rubyException pythonStatement pythonConditional pythonRepeat pythonOperator
+	pythonException pythonAsync vimAuHighlight vimAutoSet vimCondHL vimElseif vimKeyword
+	vimStatement
+PreProc	PreProc Include Define Macro PreCondit vimOption vimEnvvar vimUserAttrbKey vimSetMod vimMenuName
+	vimMenuNameMore vimHiAttrib vimFgBgAttrib vimCommentTitle rubyDefine rubyClass rubyModule
+	rubyMethodExceptional rubyInclude rubySharpBang pythonInclude pythonDecorator pythonDoctestValue
+	vimAutoCmdOpt vimHLMod
+Type	Type StorageClass Structure Typedef vimAutoEvent vimGroup vimHLGroup vimPattern vimEchoHLNone
+	vimSynCase vimGroupName vimSynReg vimSyncC vimSyncGroupName vimSyncKey vimSyncGroup vimSyncNone
+	vimHiGroup vimHiTerm vimHiCTerm vimHiStartStop vimHiCtermFgBg vimHiGui vimHiGuiFont vimHiGuiFgBg
+	rubyConstant pythonExceptions vimSpecial vimUserAttrb vimUserAttrbCmplt vimSynType
+	vimFTOption
+Underlined	Underlined
+Ignore	Ignore
+Error	Error vimOperError vimUserAttrbError vimUserCmdError vimElseIfErr vimSynError vimSyncError
+	rubyInvalidVariable rubyError rubySpaceError vimError vimKeyCodeError vimErrSetting vimBehaveError
+	vimFTError vimFunctionError vimFunc vimSubstFlagErr vimCollClassErr vimMapModErr vimSynCaseError
+	vimHiCtermError vimHiAttribList vimHiKeyError vimEmbedError
+Todo	Todo vimTodo rubyTodo pythonTodo
+Cursor	Cursor
+CursorIM	CursorIM
+Normal	Normal vimUserFunc
+vimStdPlugin	vimStdPlugin
+vimGlobal	vimGlobal
+vimIsCommand	vimIsCommand
+vimExtCmd	vimExtCmd
+vimFilter	vimFilter
+vimSet	vimSet
+vimUserCmd	vimUserCmd
+vimCmdSep	vimCmdSep
+vimFiletype	vimFiletype
+vimAugroup	vimAugroup
+vimExecute	vimExecute
+vimFunction	vimFunction
+vimOperParen	vimOperParen
+vimRegion	vimRegion
+vimSynLine	vimSynLine
+vimAugroupError	vimAugroupError
+vimEcho	vimEcho
+vimIf	vimIf
+vimFuncBody	vimFuncBody
+vimFuncBlank	vimFuncBlank
+vimEscapeBrace	vimEscapeBrace
+vimSetEqual	vimSetEqual
+vimSubstRep	vimSubstRep
+vimSubstRange	vimSubstRange
+vimPatRegion	vimPatRegion
+vimCollection	vimCollection
+vimSubstPat	vimSubstPat
+vimSubstRep4	vimSubstRep4
+vimCollClass	vimCollClass
+vimMapLhs	vimMapLhs
+vimAutoCmdSpace	vimAutoCmdSpace
+vimAutoEventList	vimAutoEventList
+vimAutoCmdSfxList	vimAutoCmdSfxList
+vimMapRhs	vimMapRhs
+vimMapRhsExtend	vimMapRhsExtend
+vimMenuBang	vimMenuBang
+vimMenuPriority	vimMenuPriority
+vimMenuMap	vimMenuMap
+vimMenuRhs	vimMenuRhs
+vimNormCmds	vimNormCmds
+vimGroupList	vimGroupList
+vimAuSyntax	vimAuSyntax
+vimClusterName	vimClusterName
+vimSynKeyRegion	vimSynKeyRegion
+vimSynMatchRegion	vimSynMatchRegion
+vimSynMtchCchar	vimSynMtchCchar
+vimSynMtchGroup	vimSynMtchGroup
+vimSynRegion	vimSynRegion
+vimSynPatMod	vimSynPatMod
+vimSyncLines	vimSyncLines
+vimSyncMatch	vimSyncMatch
+vimSyncLinebreak	vimSyncLinebreak
+vimSyncLinecont	vimSyncLinecont
+vimSyncRegion	vimSyncRegion
+vimHiLink	vimHiLink
+vimHiKeyList	vimHiKeyList
+vimHiBang	vimHiBang
+vimHiCtermColor	vimHiCtermColor
+vimHiFontname	vimHiFontname
+vimHiGuiFontname	vimHiGuiFontname
+vimHiTermcap	vimHiTermcap
+vimCommentTitleLeader	vimCommentTitleLeader
+rubyInterpolation	rubyInterpolation
+NONE	NONE
+rubyDelimEscape	rubyDelimEscape
+rubyNestedParentheses	rubyNestedParentheses
+rubyNestedCurlyBraces	rubyNestedCurlyBraces
+rubyNestedAngleBrackets	rubyNestedAngleBrackets
+rubyNestedSquareBrackets	rubyNestedSquareBrackets
+rubyRegexpParens	rubyRegexpParens
+rubyRegexpBrackets	rubyRegexpBrackets
+rubyLocalVariableOrMethod	rubyLocalVariableOrMethod
+rubyBlockArgument	rubyBlockArgument
+rubyBlockParameterList	rubyBlockParameterList
+rubyHeredocStart	rubyHeredocStart
+rubyAliasDeclaration2	rubyAliasDeclaration2
+rubyAliasDeclaration	rubyAliasDeclaration
+rubyMethodDeclaration	rubyMethodDeclaration
+rubyClassDeclaration	rubyClassDeclaration
+rubyModuleDeclaration	rubyModuleDeclaration
+rubyMethodBlock	rubyMethodBlock
+rubyBlock	rubyBlock
+rubyDoBlock	rubyDoBlock
+rubyCurlyBlockDelimiter	rubyCurlyBlockDelimiter
+rubyCurlyBlock	rubyCurlyBlock
+rubyArrayDelimiter	rubyArrayDelimiter
+rubyArrayLiteral	rubyArrayLiteral
+rubyBlockExpression	rubyBlockExpression
+rubyCaseExpression	rubyCaseExpression
+rubyConditionalExpression	rubyConditionalExpression
+rubyOptionalDoLine	rubyOptionalDoLine
+rubyRepeatExpression	rubyRepeatExpression
+rubyMultilineComment	rubyMultilineComment
+rubyKeywordAsMethod	rubyKeywordAsMethod
+vimRubyRegion	vimRubyRegion
+pythonSpaceError	pythonSpaceError
+pythonSync	pythonSync
+vimPythonRegion	vimPythonRegion
+vimAugroupSyncA	vimAugroupSyncA
