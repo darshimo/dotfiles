@@ -33,6 +33,25 @@ nnoremap <Down> 10j
 nnoremap <Up> 10k
 nnoremap <Right> 10l
 
+inoremap { {}<Left>
+inoremap {<Bs> {
+inoremap {} {}
+inoremap {<CR> {<CR>}<ESC>ko
+inoremap ( ()<Left>
+inoremap (<Bs> (
+inoremap () ()
+inoremap (<CR> (<CR>)<ESC>ko<Tab>
+inoremap [ []<Left>
+inoremap [<Bs> [
+inoremap [] []
+inoremap [<CR> [<CR>]<ESC>ko<Tab>
+inoremap " ""<Left>
+inoremap "<Bs> "
+inoremap "" ""
+inoremap ' ''<Left>
+inoremap '<Bs> '
+inoremap '' ''
+
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 colorscheme greenvision
