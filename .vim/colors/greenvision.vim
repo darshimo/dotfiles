@@ -54,7 +54,7 @@ hi PreProc  guifg=#00ac5c guibg=#000000 gui=none ctermfg=047 cterm=none
 hi Question  guifg=#009f00 guibg=#000000 gui=none ctermfg=040 ctermbg=000 cterm=none
 hi Search  gui=reverse ctermfg=000 ctermbg=255 cterm=none
 hi Special  guifg=#00d700 guibg=#001200 gui=none ctermfg=002 cterm=none
-hi SpecialKey  guifg=#008000 guibg=#002300 gui=bold ctermfg=034 ctermbg=000 cterm=bold
+hi SpecialKey  guifg=#008000 guibg=#002300 gui=bold ctermfg=034 cterm=bold
 hi Statement  guifg=#2fc626 guibg=#000000 gui=none ctermfg=048 cterm=none
 hi StatusLine  guifg=#00ff00 guibg=#001000 gui=none ctermfg=047 ctermbg=022 cterm=bold
 hi StatusLineNC  guifg=#005500 guibg=#001000 gui=none ctermfg=034 ctermbg=022 cterm=none
