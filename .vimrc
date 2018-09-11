@@ -10,6 +10,7 @@ set visualbell
 set showmatch
 set matchtime=1
 set laststatus=2
+set statusline=%F
 set list
 
 set smartindent
