@@ -36,6 +36,9 @@ let s:cterm0C = "49    "
 let s:cterm0D = "42    "
 let s:cterm0E = "241   "
 let s:cterm0F = "25    "
+let s:cterm10 = "159   "
+let s:cterm11 = "0     "
+let s:cterm12 = "43    "
 
 " Theme setup
 hi clear
@@ -96,11 +99,11 @@ call <sid>hi("WildMenu",      s:gui08, "", s:cterm08, "", "")
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "")
 call <sid>hi("Cursor",        s:gui00, s:gui09, s:cterm00, s:cterm09, "")
-call <sid>hi("NonText",       s:gui03, "", s:cterm03, "", "")
-call <sid>hi("Normal",        s:gui06, s:gui00, s:cterm06, s:cterm00, "")
+call <sid>hi("NonText",       s:gui03, "", s:cterm01, "", "")
+call <sid>hi("Normal",        s:gui06, "", s:cterm06, "", "")
 call <sid>hi("LineNr",        s:gui02, s:gui00, s:cterm02, s:cterm00, "")
 call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "")
-call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "")
+call <sid>hi("SpecialKey",    s:gui03, "", s:cterm11, "", "")
 call <sid>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none")
 call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 call <sid>hi("VertSplit",     s:gui01, s:gui01, s:cterm01, s:cterm01, "none")
@@ -137,7 +140,7 @@ call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "")
 call <sid>hi("Statement",    s:gui07, "", s:cterm07, "none", "none")
 call <sid>hi("StorageClass", s:gui05, "", s:cterm05, "", "")
 call <sid>hi("String",       s:gui0C, "", s:cterm0C, "", "")
-call <sid>hi("Structure",    s:gui0E, "", s:cterm0E, "", "")
+call <sid>hi("Structure",    s:gui0E, "", s:cterm12, "", "")
 call <sid>hi("Tag",          s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Todo",         s:gui0A, s:gui01, s:cterm0A, s:cterm01, "")
 call <sid>hi("Type",         s:gui06, "", s:cterm06, "", "none")
@@ -146,10 +149,10 @@ call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "")
 " C highlighting
 call <sid>hi("cType",         s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("cOperator",     s:gui0C, "", s:cterm0C, "", "")
-call <sid>hi("cPreCondit",    s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("cStorageClass", s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("cConditional",  s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("cRepeat",       s:gui0E, "", s:cterm0E, "", "")
+call <sid>hi("cPreCondit",    s:gui0E, "", s:cterm10, "", "")
+call <sid>hi("cStorageClass", s:gui0E, "", s:cterm10, "", "")
+call <sid>hi("cConditional",  s:gui0E, "", s:cterm10, "", "")
+call <sid>hi("cRepeat",       s:gui0E, "", s:cterm10, "", "")
 
 " C# highlighting
 call <sid>hi("csClass",                 s:gui0A, "", s:cterm0A, "", "")
