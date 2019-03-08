@@ -12,5 +12,5 @@ for file in $(ls -a | grep "^\.[^\.]"); do
     [ "$file" == ".bashrc.mac" ] && continue
     [ "$file" == ".bashrc.ubuntu" ] && continue
 
-    ln -si ~/dotfiles/$file ~/$file
+    ln -sni ~/dotfiles/$file ~/$file
 done
