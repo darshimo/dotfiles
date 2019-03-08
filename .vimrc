@@ -10,9 +10,11 @@ set visualbell
 set showmatch
 set matchtime=1
 set laststatus=2
+set statusline=%F
 set list
+"set cino=:0
 
-set smartindent
+set cindent
 set virtualedit=onemore
 set shiftwidth=4
 set tabstop=4

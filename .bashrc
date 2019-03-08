@@ -8,6 +8,13 @@ alias skim='open -a skim'
 PS1="\[\e[32m\]\u:\t\[\e[0m\]\[\e[32m\] \w\[\e[0m\] $"
 
 export LSCOLORS=Cxxxxxxxcxxxxxxxxxxxxx
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /Users/Takumi/.nvm/versions/node/v6.11.5/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /Users/Takumi/.nvm/versions/node/v6.11.5/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /Users/Takumi/.nvm/versions/node/v6.11.5/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /Users/Takumi/.nvm/versions/node/v6.11.5/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
+
+# opam configuration
+test -r /Users/Takumi/.opam/opam-init/init.sh && . /Users/Takumi/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
