@@ -119,3 +119,5 @@ fi
 
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
+alias tmux-changekey='tmux set-option -ag prefix C-b'
+alias tmux-revertkey='tmux set-option -ag prefix C-p'
