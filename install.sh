@@ -10,7 +10,7 @@ for file in $(ls -a | grep "^\.[^\.]"); do
     [ "$file" == ".git" ] && continue
     [ "$file" == ".DS_Store" ] && continue
     [ "$file" == ".bashrc.mac" ] && continue
-    [ "$file" == ".bashrc.ubuntu" ] && continue
+    [ "$file" == ".bashrc.linux" ] && continue
 
     ln -sni ~/dotfiles/$file ~/$file
 done
