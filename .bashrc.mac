@@ -3,6 +3,9 @@ alias ll='ls -l'
 alias lf='ls -F'
 alias la='ls -a'
 alias skim='open -a skim'
+alias cot='open -a coteditor'
+alias macdown='open -a macdown'
+alias marp='open -a marp'
 alias tmux-changekey='tmux set-option -ag prefix C-a'
 alias tmux-revertkey='tmux set-option -ag prefix C-p'
 #alias python='python -i ~/Start.py'
@@ -19,4 +22,4 @@ export LSCOLORS=Cxxxxxxxcxxxxxxxxxxxxx
 #[ -f /Users/Takumi/.nvm/versions/node/v6.11.5/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /Users/Takumi/.nvm/versions/node/v6.11.5/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
 
 # opam configuration
-test -r /Users/Takumi/.opam/opam-init/init.sh && . /Users/Takumi/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+#test -r /Users/Takumi/.opam/opam-init/init.sh && . /Users/Takumi/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true

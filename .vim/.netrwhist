@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/Takumi/Documents/vscode/code-workspace'
 let g:netrw_dirhist_2='/usr/local/share/jupyter/kernels/ocaml-jupyter'
 let g:netrw_dirhist_3='/usr/local/share/jupyter/kernels'
+let g:netrw_dirhist_4='/Users/Takumi/Documents/colorscheems/schemes'
+let g:netrw_dirhist_5='/Users/Takumi/Documents/memo'
+let g:netrw_dirhist_6='/Users/Takumi/Documents/deepLearningFromZero'
+let g:netrw_dirhist_7='/Users/Takumi/Documents/deepLearningFromZero/codes'
+let g:netrw_dirhist_8='/Users/Takumi/Documents/deepLearningFromZero/ch05'
+let g:netrw_dirhist_9='/Users/Takumi/Documents/summer_intern/pfn/PFNInternship2019CodingTask/machine_learning/src_cpp'
