@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if [ "$(uname)" = "Darwin" ]; then
-    ln -si ~/dotfiles/.bashrc.mac ~/.bashrc
-elif [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
-    ln -si ~/dotfiles/.bashrc.linux ~/.bashrc
-fi
+#if [ "$(uname)" = "Darwin" ]; then
+#    ln -si ~/dotfiles/.bashrc.mac ~/.bashrc
+#elif [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
+#    ln -si ~/dotfiles/.bashrc.linux ~/.bashrc
+#fi
 
 for file in $(ls -a | grep "^\.[^\.]"); do
     [ "$file" == ".git" ] && continue
